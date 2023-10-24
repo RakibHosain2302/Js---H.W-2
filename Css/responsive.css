@@ -1,0 +1,128 @@
+
+
+@media (min-width:320px) and (max-width:991px) {
+    
+   
+    .Btn-cnt {
+        width: 105px;
+    }
+
+    .tiwtter-icon {
+        top: 40px;
+        left: 40%;
+        font-size: 70px;
+    }
+
+    .formInput button {
+        bottom: 4%;
+        left: 72%;
+    }
+    
+    .login-btn button {
+        padding: 10px 50px;
+    }
+
+    .range-heading h3 {
+        padding: 250px 0 50px 0;
+    }
+
+    .colorize {
+        background-color: grey;
+        width: 100%;
+        height: 450px;
+        border-radius: 10px;
+    }
+
+    .colorize button {
+        margin-left: 35%;
+    }
+}
+
+@media(min-width:768px){
+
+    .Btn-cnt .decrement {
+        width: 120%;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .Btn-cnt .increment {
+        width: 120%;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .Btn-cnt input {
+        width: 150%;
+        height: 50px;
+        font-size: 20px;
+    }
+
+
+    .tiwtter-icon {
+        top: 40px;
+        left: 45%;
+        font-size: 70px;
+    }
+
+
+    
+    .userName {
+        width: 40%;
+    }
+
+    .userPassword {
+        width: 40%;
+    }
+
+    .formInput button {
+        bottom: 4%;
+        left: 65%;
+    }
+
+    .login-btn {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+
+    .colorize button {
+        margin-left: 45%;
+    }
+}
+
+@media (min-width:992px){
+    
+    .cart-cnt img {
+        height: 400px;
+    }
+    
+    
+    .tiwtter-icon {
+        left: 42%;
+    }
+
+      
+    .userName {
+        width: 70%;
+    }
+
+    .userPassword {
+        width: 70%;
+    }
+
+
+    .formInput button {
+        left: 75%;
+    }
+
+
+    .login-btn {
+        padding: 0px;
+        margin-left: 28%;
+        margin-top: 8%;
+    }
+
+    .colorize button {
+        margin-left: 45%;
+    }
+}

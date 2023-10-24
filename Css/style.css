@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Oswald&display=swap');
+
+/* common css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1420px;
+}
+
+/* common css ends */
+/* add to card  */
+
+.heading-cnt h1{
+    font-family: oswald;
+    text-align: center;
+    font-weight: 600;
+}
+
+.Card{
+    border: 1px solid white;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 65px;
+}
+
+.Card h6{
+    font-size: 20px;
+    font-family: Oswald;
+    padding-left: 16px;
+
+}
+
+.cart-cnt{
+    margin-bottom: 20px;
+}
+
+.cart-cnt img{
+    width: 415px;
+    height: 300px;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.new-price{
+    color: black;
+    font-size: 25px;
+    font-family: oswald;
+    font-weight: 400px;
+    padding-left: 16px;
+}
+
+.old-price{
+    color: black;
+    font-size: 20px;
+    font-family: oswald;
+    font-weight: 400px;
+    padding-left: 10px;
+    text-decoration: line-through;  
+}
+
+.text-cnt p{
+    color: black;
+    font-family: oswald;
+    padding-left: 16px;
+    font-size: 20px;
+}
+
+.Btn-cnt{
+    width: 100px;
+    display: flex;
+}
+
+
+.Btn-cnt .decrement{
+    width: 40%;
+    height: 30px;
+    font-size: 16px;
+}
+
+
+.Btn-cnt .increment{
+    width: 40%;
+    height: 30px;
+    font-size: 16px;
+}
+
+.Btn-cnt input{
+    width: 60%;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.buy-btn-cnt {
+  padding-left: 15px;
+}
+
+.buy-btn {
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 8px;
+    background-color:  #f1f1f1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      
+  
+}
+
+.buy-btn-2 {
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 8px;
+    background-color:  #f1f1f1 ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.buy-btn-cnt a{
+    font-size: 16px;
+    font-family: oswald;
+    margin-left: 15px;
+    color: #000000;
+}
+/* add to cart ends */
+
+
+/* password cnt */
+
+.password-cnt{
+    margin-bottom: 20px;
+}
+
+.tiwtter-icon{
+    top: 50px;
+    left: 43%;
+    font-size: 60px;
+    color: #00acee;
+    text-align: center;
+    position: absolute;
+}
+
+
+.card-2{
+    border: 1px solid white;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 188px;
+    position: relative;
+}
+
+
+.card-2 h3{
+    padding: 150px 0 30px 0;
+    font-family: oswald;
+    text-align: center;
+    font-weight: 400;
+    color: #000000;
+
+}
+
+.formInput{
+    text-align: center;
+    position: relative;
+  
+}
+
+.userName{
+    width: 70%;
+    border-color: grey;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: oswald;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.userPassword{
+    width: 70%;
+    border-color: grey;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: oswald;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+}
+
+.passwordBtn{
+    padding: 5px 5px ;
+    border: none;
+    
+    
+}
+
+.formInput button{
+    background-color: white;
+    position: absolute;
+    bottom: 4%;
+    left: 75%;
+    
+
+}
+
+.passwordBtn i{
+   font-size: 20px;
+}
+
+.login-btn{
+    padding: 10px;
+    width: 50%;
+    position: absolute;
+    margin-left:25%;
+    margin-top: 10%;
+}
+
+.login-btn button{
+    text-align:center ;
+    font-family: oswald;
+    padding: 10px 80px;
+    border-radius: 25px;
+    color: #fff;
+    background-color:#00acee ;
+    margin-bottom: 15px;
+}
+
+.login-btn a{
+    font-size: 15px;
+}
+
+.login-btn span{
+    padding:0 3px 0;
+}
+
+/* password cnt ends */
+
+/* range cnt */
+
+.card-3{
+    border: 1px solid white;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 188px;
+    position: relative;
+  
+}
+
+.range-heading h3{
+
+    font-family: oswald;
+    text-align: center;
+    padding: 193px 0 25px 0;
+    font-weight: 400;
+    color: #000;
+
+}
+
+
+.slider{
+    text-align: center;
+}
+
+.output{
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.rangeSlider{
+    width: 50%;
+    margin: auto; 
+}
+
+
+
+
+/* range cnt ends */
+/* colorize cnt */
+
+.color-heading h1{
+    padding: 30px 0 15px 0;
+    text-align: center;
+    font-family: oswald;
+    font-weight: 600;
+}
+
+.colorize{
+    background-color: grey;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+
+   
+}
+
+.colorize button{
+    margin-top: 200px;
+    margin-left: 47%;
+
+}
+
+.rndBtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: oswald;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+}
+/* colorize cnt ends */
+
+
+.name h4{
+    text-align: center;
+    font-size: 16px;
+    font-family: oswald;
+
+}
